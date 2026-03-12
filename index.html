@@ -10,7 +10,7 @@
 <body>
      <nav class="first">
         <div class="logo">
-            <h2>NAV</h2>
+            <h2>HOME</h2>
         </div>
         <ul class="list" id="navbar">
             <li><a href="">Home</a></li>
@@ -24,7 +24,7 @@
      </nav>
      <script>
         var navbar =document.getElementById("navbar");
-        var menuicon=document.getElementById("three");
+        var three=document.getElementById("three");
 
         three.onclick=function(){
            if(navbar.style.display==="block"){
@@ -36,11 +36,11 @@
         }
         three.onclick = function(){
 
-        if(items.style.display === "flex"){
-            items.style.display = "none";
+        if(navbar.style.display === "flex"){
+            navbar.style.display = "none";
         }
         else{
-            items.style.display = "flex";
+            navbar.style.display = "flex";
         }
         }
 </script>
